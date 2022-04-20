@@ -39,8 +39,10 @@ static int convert( int n ) {
 
 int main( int argc, char** argv ) {
   int n = 0;
-  scanf( "%d", &n ); // read the random int
-  
+  size_t k = scanf( "%d", &n ); // read the random int
+  if ( k < 1 )
+    return -1;
+
   print_bin( n ); // print binary represenation
 
   // printf( "%d\n", convert(n) );
