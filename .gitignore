@@ -2,4 +2,6 @@
 !src
 !src/*
 !makefile
+!README.md
+!disasm-c.sh
 !.gitignore
