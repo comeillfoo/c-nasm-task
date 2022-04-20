@@ -1,2 +1,3 @@
 #!/usr/bin/bash
-objdump -S ./byter-c
+objdump --disassemble=main -M intel-mnemonic byter-c
+objdump --disassemble=print_bin -M intel-mnemonic byter-c

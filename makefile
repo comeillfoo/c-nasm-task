@@ -1,6 +1,6 @@
 CC=gcc
 CC_LD=gcc
-CFLAGS=--std=c18 -pedantic-errors -Wall -Werror -g -O3
+CFLAGS=--std=c18 -pedantic-errors -Wall -Werror -g
 
 ASM=nasm
 ASM_LD=ld
