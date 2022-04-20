@@ -40,8 +40,10 @@ static int convert( int n ) {
 int main( int argc, char** argv ) {
   int n = 0;
   size_t k = scanf( "%d", &n ); // read the random int
-  if ( k < 1 )
+  if ( k < 1 ) {
+    printf( "error: could not parse input text\n" );
     return -1;
+  }
 
   print_bin( n ); // print binary represenation
 
